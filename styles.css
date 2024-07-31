@@ -1,1 +1,96 @@
 @import url(./template.css);
+
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+}
+
+body {
+  padding: 0;
+}
+
+.bosch__BBS711ANM .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.bosch__BBS711ANM img {
+  margin: 0;
+}
+
+.bosch__BBS711ANM p {
+  padding: 0;
+  margin: 0;
+}
+
+.bosch__BBS711ANM h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.bosch__BBS711ANM ul {
+  padding: 0;
+}
+
+.bosch__BBS711ANM ul li {
+  padding: 0;
+}
+
+.bosch__BBS711ANM {
+  overflow: hidden;
+}
+
+.bosch__BBS711ANM div {
+  padding: 0;
+  width: initial;
+}
+
+.bosch__BBS711ANM br {
+  display: block;
+}
+
+.product__body .el-tabs__header {
+  z-index: 6;
+}
+
+/* main css */
+
+.bosch__BBS711ANM .main {
+  padding: 32px 16px;
+  display: grid;
+}
+
+.bosch__BBS711ANM .main__logo {
+  width: 89px;
+  margin-bottom: 16px;
+}
+
+.bosch__BBS711ANM .main__title {
+  width: 288px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  margin-bottom: 8px;
+}
+.bosch__BBS711ANM .main__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #666;
+  margin-bottom: 18px;
+}
+.bosch__BBS711ANM .main__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #666;
+}
