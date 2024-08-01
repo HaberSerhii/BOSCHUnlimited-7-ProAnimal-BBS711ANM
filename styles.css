@@ -179,6 +179,47 @@ body {
   width: 100%;
 }
 
+.bosch__BBS711ANM .battery {
+  padding: 32px 16px;
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+}
+.bosch__BBS711ANM .battery__description__container {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+}
+.bosch__BBS711ANM .battery__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .battery__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+
+.bosch__BBS711ANM .width {
+  width: 160px;
+}
+
+.bosch__BBS711ANM .battery__image {
+  width: 100%;
+}
+.bosch__BBS711ANM .battery__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #666;
+}
+
 @media (min-width: 768px) {
   .bosch__BBS711ANM .main {
     padding: 0 32px;
@@ -261,6 +302,35 @@ body {
     grid-area: i;
     width: 100%;
   }
+  .bosch__BBS711ANM .battery {
+    padding: 32px;
+    gap: 32px;
+  }
+  .bosch__BBS711ANM .battery__title {
+    font-size: 22px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .battery__description__container {
+    gap: 8px;
+    width: 556px;
+  }
+
+  .bosch__BBS711ANM .battery__description {
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .width {
+    width: 160px;
+  }
+
+  .bosch__BBS711ANM .battery__image {
+    width: 100%;
+  }
+  .bosch__BBS711ANM .battery__uppertitle {
+    font-size: 12px;
+    line-height: 130%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -337,6 +407,30 @@ body {
     font-size: 18px;
     line-height: 150%;
   }
+  .bosch__BBS711ANM .battery {
+    padding: 42px 40px;
+    gap: 40px;
+  }
+  .bosch__BBS711ANM .battery__description__container {
+    width: 710px;
+    font-size: 14px;
+    gap: 12px;
+  }
+
+  .bosch__BBS711ANM .battery__title {
+    font-size: 30px;
+  }
+  .bosch__BBS711ANM .battery__description {
+    font-size: 18px;
+  }
+
+  .bosch__BBS711ANM .width {
+    width: 220px;
+  }
+
+  .bosch__BBS711ANM .battery__uppertitle {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -408,5 +502,28 @@ body {
   }
   .bosch__BBS711ANM .modes__description__subtitle {
     font-weight: 500;
+  }
+
+  .bosch__BBS711ANM .battery {
+    padding: 60px;
+  }
+  .bosch__BBS711ANM .battery__description__container {
+    width: 800px;
+    gap: 16px;
+  }
+
+  .bosch__BBS711ANM .battery__title {
+    font-size: 36px;
+  }
+  .bosch__BBS711ANM .battery__description {
+    font-size: 24px;
+  }
+
+  .bosch__BBS711ANM .width {
+    width: 280px;
+  }
+
+  .bosch__BBS711ANM .battery__uppertitle {
+    font-size: 14px;
   }
 }
