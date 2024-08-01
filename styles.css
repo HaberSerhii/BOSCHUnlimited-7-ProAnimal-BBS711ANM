@@ -220,6 +220,34 @@ body {
   color: #666;
 }
 
+.bosch__BBS711ANM .comfortable {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+  padding: 32px 16px;
+}
+.bosch__BBS711ANM .comfortable__description__container {
+  display: grid;
+  gap: 16px;
+}
+.bosch__BBS711ANM .comfortable__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+
+.comfortable__image__container {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bosch__BBS711ANM .comfortable__image {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .bosch__BBS711ANM .main {
     padding: 0 32px;
@@ -331,6 +359,25 @@ body {
     font-size: 12px;
     line-height: 130%;
   }
+
+  .bosch__BBS711ANM .comfortable {
+    gap: 32px;
+    padding: 32px;
+  }
+  .bosch__BBS711ANM .comfortable__description__container {
+    display: grid;
+    grid-template-columns: 316px 316px;
+    align-content: space-around;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .comfortable__description {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .comfortable__image__container {
+    gap: 8px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -431,6 +478,24 @@ body {
   .bosch__BBS711ANM .battery__uppertitle {
     font-size: 14px;
   }
+
+  .bosch__BBS711ANM .comfortable {
+    gap: 40px;
+    padding: 42px 40px;
+  }
+  .bosch__BBS711ANM .comfortable__description__container {
+    display: grid;
+    grid-template-columns: 436px 436px;
+    gap: 32px;
+  }
+  .bosch__BBS711ANM .comfortable__description {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .comfortable__image__container {
+    gap: 12px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -525,5 +590,23 @@ body {
 
   .bosch__BBS711ANM .battery__uppertitle {
     font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .comfortable {
+    gap: 40px;
+    padding: 60px;
+  }
+  .bosch__BBS711ANM .comfortable__description__container {
+    display: grid;
+    grid-template-columns: 611px 611px;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .comfortable__description {
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  .comfortable__image__container {
+    gap: 12px;
   }
 }
