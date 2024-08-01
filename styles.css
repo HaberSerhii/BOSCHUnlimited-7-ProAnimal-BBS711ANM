@@ -46,6 +46,7 @@ body {
 
 .bosch__BBS711ANM {
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .bosch__BBS711ANM div {
@@ -64,17 +65,22 @@ body {
 /* main css */
 
 .bosch__BBS711ANM .main {
-  padding: 32px 16px;
+  padding: 32px 16px 0 16px;
   display: grid;
+  justify-content: center;
+}
+
+.bosch__BBS711ANM .main__description {
+  display: grid;
+  gap: 17px;
+  width: 288px;
 }
 
 .bosch__BBS711ANM .main__logo {
   width: 89px;
-  margin-bottom: 16px;
 }
 
 .bosch__BBS711ANM .main__title {
-  width: 288px;
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
@@ -86,11 +92,321 @@ body {
   font-size: 20px;
   line-height: 130%;
   color: #666;
-  margin-bottom: 18px;
 }
 .bosch__BBS711ANM .main__uppertitle {
+  width: 89px;
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
   color: #666;
+}
+
+.bosch__BBS711ANM .main__image {
+  justify-self: center;
+  width: 100%;
+}
+
+.bosch__BBS711ANM .divider {
+  width: 100%;
+  height: 6px;
+  background-image: url("https://i.citrus.world/uploads/Haber/BOSCH_Unlimited_7_ProAnimal_BBS711ANM/divider.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bosch__BBS711ANM .power {
+  padding: 32px 16px;
+  display: grid;
+  gap: 24px;
+}
+.bosch__BBS711ANM .power__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .power__subtitle__container {
+  display: grid;
+  gap: 16px;
+}
+.bosch__BBS711ANM .power__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .power__image {
+  width: 100%;
+}
+.bosch__BBS711ANM .power__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .power__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #666;
+}
+.bosch__BBS711ANM .modes {
+  padding: 32px 16px;
+  display: grid;
+  gap: 24px;
+}
+.bosch__BBS711ANM .modes__description__container {
+  display: grid;
+  gap: 8px;
+}
+.bosch__BBS711ANM .modes__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  color: #020202;
+}
+.bosch__BBS711ANM .modes__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #020202;
+}
+.bosch__BBS711ANM .modes__image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bosch__BBS711ANM .main {
+    padding: 0 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bosch__BBS711ANM .main__description {
+    width: 308px;
+    padding: 30px 0;
+    display: grid;
+    gap: 0;
+    align-content: space-between;
+  }
+
+  .bosch__BBS711ANM .divider {
+    height: 14px;
+  }
+
+  .bosch__BBS711ANM .power {
+    padding: 32px;
+    gap: 32px;
+    justify-items: center;
+  }
+  .bosch__BBS711ANM .power__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+  }
+  .bosch__BBS711ANM .power__subtitle__container {
+    grid-template-columns: 316px 316px;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .power__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .bosch__BBS711ANM .power__image {
+    width: 100%;
+  }
+  .bosch__BBS711ANM .power__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .bosch__BBS711ANM .power__uppertitle {
+    width: 544px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .bosch__BBS711ANM .modes {
+    padding: 32px;
+    display: grid;
+    gap: 24px;
+    grid-template-areas: "i dc";
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .bosch__BBS711ANM .modes__description__container {
+    display: grid;
+    grid-area: dc;
+    align-content: center;
+    gap: 8px;
+    width: 316px;
+  }
+  .bosch__BBS711ANM .modes__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    color: #020202;
+  }
+  .bosch__BBS711ANM .modes__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #020202;
+  }
+  .bosch__BBS711ANM .modes__image {
+    grid-area: i;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bosch__BBS711ANM .main {
+    padding: 0 40px;
+  }
+
+  .bosch__BBS711ANM .main__description {
+    width: 420px;
+    padding: 40px 0;
+  }
+
+  .bosch__BBS711ANM .main__logo {
+    width: 129px;
+  }
+  .bosch__BBS711ANM .main__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .bosch__BBS711ANM .main__subtitle {
+    font-size: 28px;
+  }
+
+  .bosch__BBS711ANM .main__uppertitle {
+    width: 89px;
+    font-size: 14px;
+  }
+  .bosch__BBS711ANM .main__image {
+    justify-self: right;
+    width: 436px;
+  }
+  .bosch__BBS711ANM .divider {
+    height: 18px;
+  }
+  .bosch__BBS711ANM .power {
+    padding: 42px 40px;
+    gap: 40px;
+  }
+  .bosch__BBS711ANM .power__title {
+    font-size: 30px;
+  }
+  .bosch__BBS711ANM .power__subtitle__container {
+    grid-template-columns: 436px 436px;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .power__subtitle {
+    font-size: 18px;
+  }
+  .bosch__BBS711ANM .power__image {
+    width: 100%;
+  }
+  .bosch__BBS711ANM .power__description {
+    width: 800px;
+    font-size: 18px;
+  }
+  .bosch__BBS711ANM .power__uppertitle {
+    width: 636px;
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .modes {
+    padding: 42px 40px;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .modes__description__container {
+    gap: 12px;
+    width: 436px;
+  }
+  .bosch__BBS711ANM .modes__title {
+    font-size: 30px;
+    line-height: 150%;
+  }
+  .bosch__BBS711ANM .modes__description {
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bosch__BBS711ANM .main {
+    padding: 0 60px;
+  }
+
+  .bosch__BBS711ANM .main__description {
+    padding: 60px 0;
+  }
+  .bosch__BBS711ANM .main__logo {
+    width: 188px;
+  }
+
+  .bosch__BBS711ANM .main__title {
+    width: 575px;
+    font-size: 38px;
+    margin-bottom: 14px;
+  }
+  .bosch__BBS711ANM .main__subtitle {
+    font-size: 38px;
+  }
+
+  .bosch__BBS711ANM .main__image {
+    width: 635px;
+  }
+  .bosch__BBS711ANM .divider {
+    height: 24px;
+  }
+
+  .bosch__BBS711ANM .power {
+    padding: 60px;
+  }
+  .bosch__BBS711ANM .power__title {
+    font-size: 36px;
+  }
+  .bosch__BBS711ANM .power__subtitle__container {
+    grid-template-columns: 611px 611px;
+    gap: 24px;
+  }
+  .bosch__BBS711ANM .power__subtitle {
+    font-size: 24px;
+  }
+  .bosch__BBS711ANM .power__image {
+    width: 100%;
+  }
+  .bosch__BBS711ANM .power__description {
+    width: 810px;
+    font-size: 24px;
+  }
+  .bosch__BBS711ANM .power__uppertitle {
+    width: 100%;
+    font-size: 14px;
+  }
+  .bosch__BBS711ANM .modes {
+    padding: 60px;
+  }
+
+  .bosch__BBS711ANM .modes__description__container {
+    gap: 16px;
+    width: 611px;
+  }
+  .bosch__BBS711ANM .modes__title {
+    font-size: 36px;
+  }
+  .bosch__BBS711ANM .modes__description {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .bosch__BBS711ANM .modes__description__subtitle {
+    font-weight: 500;
+  }
 }
