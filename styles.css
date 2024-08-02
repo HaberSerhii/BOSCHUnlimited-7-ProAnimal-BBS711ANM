@@ -184,6 +184,7 @@ body {
   display: grid;
   gap: 24px;
   justify-items: center;
+  background: #fafafa;
 }
 .bosch__BBS711ANM .battery__description__container {
   display: grid;
@@ -238,7 +239,7 @@ body {
   color: #020202;
 }
 
-.comfortable__image__container {
+.bosch__BBS711ANM .comfortable__image__container {
   display: grid;
   gap: 3px;
   grid-template-columns: 1fr 1fr;
@@ -246,6 +247,32 @@ body {
 
 .bosch__BBS711ANM .comfortable__image {
   width: 100%;
+}
+
+.bosch__BBS711ANM .brush {
+  padding: 32px 16px;
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+  background: #fafafa;
+}
+
+.bosch__BBS711ANM .brush__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .brush__image {
+  width: 100%;
+}
+.bosch__BBS711ANM .brush__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #666;
 }
 
 @media (min-width: 768px) {
@@ -378,6 +405,22 @@ body {
   .comfortable__image__container {
     gap: 8px;
   }
+
+  .bosch__BBS711ANM .brush {
+    padding: 32px;
+    gap: 32px;
+  }
+
+  .bosch__BBS711ANM .brush__description {
+    width: 556px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .brush__uppertitle {
+    font-size: 12px;
+    line-height: 130%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -496,6 +539,22 @@ body {
   .comfortable__image__container {
     gap: 12px;
   }
+
+  .bosch__BBS711ANM .brush {
+    padding: 42px 40px;
+    gap: 40px;
+  }
+
+  .bosch__BBS711ANM .brush__description {
+    width: auto;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .brush__uppertitle {
+    font-size: 14px;
+    line-height: 130%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -608,5 +667,15 @@ body {
 
   .comfortable__image__container {
     gap: 12px;
+  }
+
+  .bosch__BBS711ANM .brush {
+    padding: 60px;
+  }
+
+  .bosch__BBS711ANM .brush__description {
+    width: 800px;
+    font-size: 24px;
+    line-height: 150%;
   }
 }
