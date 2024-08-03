@@ -23,6 +23,7 @@ body {
 }
 
 .bosch__BBS711ANM img {
+  width: 100%;
   margin: 0;
 }
 
@@ -103,7 +104,6 @@ body {
 
 .bosch__BBS711ANM .main__image {
   justify-self: center;
-  width: 100%;
 }
 
 .bosch__BBS711ANM .divider {
@@ -137,9 +137,7 @@ body {
   text-align: center;
   color: #020202;
 }
-.bosch__BBS711ANM .power__image {
-  width: 100%;
-}
+
 .bosch__BBS711ANM .power__description {
   font-weight: 400;
   font-size: 14px;
@@ -175,9 +173,6 @@ body {
   line-height: 150%;
   color: #020202;
 }
-.bosch__BBS711ANM .modes__image {
-  width: 100%;
-}
 
 .bosch__BBS711ANM .battery {
   padding: 32px 16px;
@@ -210,9 +205,6 @@ body {
   width: 160px;
 }
 
-.bosch__BBS711ANM .battery__image {
-  width: 100%;
-}
 .bosch__BBS711ANM .battery__uppertitle {
   font-weight: 400;
   font-size: 12px;
@@ -245,10 +237,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.bosch__BBS711ANM .comfortable__image {
-  width: 100%;
-}
-
 .bosch__BBS711ANM .brush {
   padding: 32px 16px;
   display: grid;
@@ -264,15 +252,202 @@ body {
   text-align: center;
   color: #020202;
 }
-.bosch__BBS711ANM .brush__image {
-  width: 100%;
-}
+
 .bosch__BBS711ANM .brush__uppertitle {
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
   text-align: center;
   color: #666;
+}
+
+.bosch__BBS711ANM .dust {
+  padding: 32px;
+  display: grid;
+}
+.bosch__BBS711ANM .dust__description__container {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  margin-bottom: 16px;
+}
+.bosch__BBS711ANM .dust__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #020202;
+  margin-bottom: 16px;
+}
+.bosch__BBS711ANM .dust__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .dust__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #666;
+}
+.bosch__BBS711ANM .dust__image {
+  margin-top: 16px;
+}
+
+.bosch__BBS711ANM .bundle {
+  background: #fafafa;
+  padding: 32px 16px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "desc1 desc2 "
+    "img1 img2"
+    "desc4 desc4 "
+    "img4 img4"
+    "img3 img5"
+    "desc3 desc5";
+}
+
+.bosch__BBS711ANM .desc_1 {
+  grid-area: desc1;
+}
+.bosch__BBS711ANM .image_1 {
+  grid-area: img1;
+}
+.bosch__BBS711ANM .desc_2 {
+  grid-area: desc2;
+}
+.bosch__BBS711ANM .image_2 {
+  grid-area: img2;
+}
+.bosch__BBS711ANM .desc_3 {
+  grid-area: desc3;
+}
+.bosch__BBS711ANM .image_3 {
+  grid-area: img3;
+}
+.bosch__BBS711ANM .desc_4 {
+  grid-area: desc4;
+}
+.bosch__BBS711ANM .image_4 {
+  grid-area: img4;
+}
+.bosch__BBS711ANM .desc_5 {
+  grid-area: desc5;
+}
+.bosch__BBS711ANM .image_5 {
+  grid-area: img5;
+}
+
+.bosch__BBS711ANM .bundle__description {
+  min-width: 156px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+
+.bosch__BBS711ANM .warranty {
+  background: #e7f3ff;
+  padding: 32px 0px 0px 16px;
+  display: grid;
+  gap: 24px;
+}
+.bosch__BBS711ANM .warranty__description__container {
+  display: grid;
+  gap: 16px;
+  width: 328px;
+}
+.bosch__BBS711ANM .warranty__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #020202;
+}
+.bosch__BBS711ANM .warranty__span {
+  font-weight: 500;
+}
+.bosch__BBS711ANM .warranty__uppertitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #666;
+}
+
+.bosch__BBS711ANM .about {
+  padding: 32px 16px;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.bosch__BBS711ANM .about__logo {
+  width: 288px;
+}
+
+.bosch__BBS711ANM .about__description__container {
+  display: grid;
+  gap: 10px;
+  width: 320px;
+}
+.bosch__BBS711ANM .about__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+.bosch__BBS711ANM .about__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+
+.bosch__BBS711ANM .accessories {
+  padding: 32px 16px;
+  display: grid;
+  gap: 16px;
+}
+.bosch__BBS711ANM .accessories__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
+}
+
+.bosch__BBS711ANM .accessories__list {
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-items: center;
+}
+
+.bosch__BBS711ANM .accessories__items {
+  width: 160px;
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.bosch__BBS711ANM .accessories__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #020202;
 }
 
 @media (min-width: 768px) {
@@ -310,9 +485,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-  }
-  .bosch__BBS711ANM .power__image {
-    width: 100%;
   }
   .bosch__BBS711ANM .power__description {
     font-weight: 400;
@@ -355,7 +527,6 @@ body {
   }
   .bosch__BBS711ANM .modes__image {
     grid-area: i;
-    width: 100%;
   }
   .bosch__BBS711ANM .battery {
     padding: 32px;
@@ -379,9 +550,6 @@ body {
     width: 160px;
   }
 
-  .bosch__BBS711ANM .battery__image {
-    width: 100%;
-  }
   .bosch__BBS711ANM .battery__uppertitle {
     font-size: 12px;
     line-height: 130%;
@@ -420,6 +588,152 @@ body {
   .bosch__BBS711ANM .brush__uppertitle {
     font-size: 12px;
     line-height: 130%;
+  }
+
+  .bosch__BBS711ANM .dust {
+    padding: 32px;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-content: center;
+    align-content: center;
+    row-gap: 32px;
+  }
+
+  .bosch__BBS711ANM .dust__description__container {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  .bosch__BBS711ANM .dust__title {
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 0px;
+    grid-column: 1/4;
+  }
+
+  .bosch__BBS711ANM .dust__description {
+    width: 316px;
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .dust__uppertitle {
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .bosch__BBS711ANM .dust__image {
+    margin-top: 0px;
+    grid-column: 1/4;
+  }
+
+  .bosch__BBS711ANM .bundle {
+    padding: 32px;
+    display: grid;
+    align-items: center;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "desc1 desc2 desc3"
+      "img1 img2 img3"
+      "img4 img4 img5"
+      "desc4 desc4 desc5";
+  }
+
+  .bosch__BBS711ANM .desc_1 {
+    grid-area: desc1;
+    margin-bottom: 8px;
+  }
+  .bosch__BBS711ANM .desc_2 {
+    grid-area: desc2;
+    margin-bottom: 8px;
+  }
+  .bosch__BBS711ANM .desc_3 {
+    grid-area: desc3;
+    margin-bottom: 8px;
+  }
+  .bosch__BBS711ANM .desc_4 {
+    grid-area: desc4;
+    margin-top: 8px;
+  }
+  .bosch__BBS711ANM .desc_5 {
+    grid-area: desc5;
+    margin-top: 8px;
+  }
+
+  .bosch__BBS711ANM .bundle__description {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .warranty {
+    background: linear-gradient(
+      180deg,
+      #ebf5fe 0%,
+      #effafe 58.86%,
+      #ecf4ff 100%
+    );
+    padding: 0px 0px 0px 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+    justify-items: center;
+  }
+  .bosch__BBS711ANM .warranty__description__container {
+    gap: 16px;
+    width: 308px;
+  }
+  .bosch__BBS711ANM .warranty__description {
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .warranty__uppertitle {
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .bosch__BBS711ANM .about {
+    padding: 32px;
+  }
+
+  .bosch__BBS711ANM .about__logo {
+    width: 354px;
+  }
+
+  .bosch__BBS711ANM .about__description__container {
+    width: 542px;
+  }
+  .bosch__BBS711ANM .about__title {
+    font-size: 18px;
+  }
+  .bosch__BBS711ANM .about__description {
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .accessories {
+    padding: 32px;
+    gap: 32px;
+  }
+  .bosch__BBS711ANM .accessories__title {
+    font-size: 22px;
+  }
+
+  .bosch__BBS711ANM .accessories__list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px 24px;
+  }
+
+  .bosch__BBS711ANM .accessories__items:nth-child(5) {
+    grid-column: 2/3;
+  }
+
+  .bosch__BBS711ANM .accessories__items {
+    width: 145px;
+    gap: 16px;
+  }
+
+  .bosch__BBS711ANM .accessories__description {
+    font-size: 14px;
   }
 }
 
@@ -468,9 +782,6 @@ body {
   }
   .bosch__BBS711ANM .power__subtitle {
     font-size: 18px;
-  }
-  .bosch__BBS711ANM .power__image {
-    width: 100%;
   }
   .bosch__BBS711ANM .power__description {
     width: 800px;
@@ -555,6 +866,122 @@ body {
     font-size: 14px;
     line-height: 130%;
   }
+
+  .bosch__BBS711ANM .dust {
+    padding: 42px 40px;
+    row-gap: 40px;
+  }
+
+  .bosch__BBS711ANM .dust__description__container {
+    display: grid;
+    gap: 16px;
+  }
+
+  .bosch__BBS711ANM .dust__title {
+    font-size: 30px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .dust__description {
+    width: 436px;
+    font-size: 18px;
+  }
+
+  .bosch__BBS711ANM .dust__uppertitle {
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .bundle {
+    padding: 42px 40px;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "desc1 desc2 desc3"
+      "img1 img2 img3"
+      "img4 img4 img5"
+      "desc4 desc4 desc5";
+  }
+  .bosch__BBS711ANM .desc_1 {
+    grid-area: desc1;
+    margin-bottom: 16px;
+  }
+  .bosch__BBS711ANM .desc_2 {
+    grid-area: desc2;
+    margin-bottom: 16px;
+  }
+  .bosch__BBS711ANM .desc_3 {
+    grid-area: desc3;
+    margin-bottom: 16px;
+  }
+  .bosch__BBS711ANM .desc_4 {
+    grid-area: desc4;
+    margin-top: 16px;
+  }
+  .bosch__BBS711ANM .desc_5 {
+    grid-area: desc5;
+    margin-top: 16px;
+  }
+  .bosch__BBS711ANM .bundle__description {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .warranty__description__container {
+    gap: 16px;
+    width: 436px;
+  }
+  .bosch__BBS711ANM .warranty__description {
+    font-size: 18px;
+  }
+
+  .bosch__BBS711ANM .warranty__uppertitle {
+    font-size: 14px;
+  }
+
+  .bosch__BBS711ANM .about {
+    padding: 42px 40px;
+    gap: 28px;
+  }
+
+  .bosch__BBS711ANM .about__logo {
+    width: 484px;
+  }
+
+  .bosch__BBS711ANM .about__description__container {
+    width: 590px;
+    gap: 14px;
+  }
+  .bosch__BBS711ANM .about__title {
+    font-size: 22px;
+  }
+  .bosch__BBS711ANM .about__description {
+    font-size: 18px;
+  }
+  .bosch__BBS711ANM .accessories {
+    padding: 42px 40px;
+    gap: 40px;
+  }
+  .bosch__BBS711ANM .accessories__title {
+    font-size: 30px;
+  }
+
+  .bosch__BBS711ANM .accessories__list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 24px;
+  }
+
+  .bosch__BBS711ANM .accessories__items:nth-child(5) {
+    grid-column: 2/3;
+  }
+
+  .bosch__BBS711ANM .accessories__items {
+    width: 206px;
+    gap: 24px;
+  }
+
+  .bosch__BBS711ANM .accessories__description {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -598,9 +1025,7 @@ body {
   .bosch__BBS711ANM .power__subtitle {
     font-size: 24px;
   }
-  .bosch__BBS711ANM .power__image {
-    width: 100%;
-  }
+
   .bosch__BBS711ANM .power__description {
     width: 810px;
     font-size: 24px;
@@ -677,5 +1102,82 @@ body {
     width: 800px;
     font-size: 24px;
     line-height: 150%;
+  }
+
+  .bosch__BBS711ANM .dust {
+    padding: 60px;
+  }
+
+  .bosch__BBS711ANM .dust__title {
+    font-size: 36px;
+  }
+
+  .bosch__BBS711ANM .dust__description {
+    width: 611px;
+    font-size: 24px;
+  }
+  .bosch__BBS711ANM .bundle {
+    padding: 60px;
+  }
+
+  .bosch__BBS711ANM .bundle__description {
+    font-size: 24px;
+  }
+  .bosch__BBS711ANM .warranty {
+    padding: 0px 0px 0px 60px;
+  }
+  .bosch__BBS711ANM .warranty__description__container {
+    width: 605px;
+  }
+  .bosch__BBS711ANM .warranty__description {
+    font-size: 24px;
+  }
+
+  .bosch__BBS711ANM .warranty__uppertitle {
+    font-size: 14px;
+  }
+  .bosch__BBS711ANM .about {
+    padding: 60px;
+    gap: 40px;
+  }
+
+  .bosch__BBS711ANM .about__logo {
+    width: 676px;
+  }
+
+  .bosch__BBS711ANM .about__description__container {
+    width: 762px;
+    gap: 18px;
+  }
+  .bosch__BBS711ANM .about__title {
+    font-size: 28px;
+  }
+  .bosch__BBS711ANM .about__description {
+    font-size: 24px;
+  }
+
+  .bosch__BBS711ANM .accessories {
+    padding: 60px;
+  }
+  .bosch__BBS711ANM .accessories__title {
+    font-size: 36px;
+  }
+
+  .bosch__BBS711ANM .accessories__list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 24px;
+  }
+
+  .bosch__BBS711ANM .accessories__items:nth-child(5) {
+    grid-column: 2/3;
+  }
+
+  .bosch__BBS711ANM .accessories__items {
+    width: 294px;
+    gap: 24px;
+  }
+
+  .bosch__BBS711ANM .accessories__description {
+    font-size: 24px;
   }
 }
