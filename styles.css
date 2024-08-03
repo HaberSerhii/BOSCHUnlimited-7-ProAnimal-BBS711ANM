@@ -221,6 +221,7 @@ body {
 }
 .bosch__BBS711ANM .comfortable__description__container {
   display: grid;
+  align-items: center;
   gap: 16px;
 }
 .bosch__BBS711ANM .comfortable__description {
