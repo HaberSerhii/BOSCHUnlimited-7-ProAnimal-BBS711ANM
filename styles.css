@@ -205,6 +205,10 @@ body {
   width: 160px;
 }
 
+.bosch__BBS711ANM .width_ru {
+  width: 175px;
+}
+
 .bosch__BBS711ANM .battery__uppertitle {
   font-weight: 400;
   font-size: 12px;
@@ -551,6 +555,10 @@ body {
     width: 160px;
   }
 
+  .bosch__BBS711ANM .width_ru {
+    width: 175px;
+  }
+
   .bosch__BBS711ANM .battery__uppertitle {
     font-size: 12px;
     line-height: 130%;
@@ -830,6 +838,10 @@ body {
     width: 220px;
   }
 
+  .bosch__BBS711ANM .width_ru {
+    width: 226px;
+  }
+
   .bosch__BBS711ANM .battery__uppertitle {
     font-size: 14px;
   }
@@ -1071,6 +1083,10 @@ body {
 
   .bosch__BBS711ANM .width {
     width: 280px;
+  }
+
+  .bosch__BBS711ANM .width_ru {
+    width: 300px;
   }
 
   .bosch__BBS711ANM .battery__uppertitle {
